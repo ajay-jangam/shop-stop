@@ -37,9 +37,15 @@
 	}
 }
 
+.ui.card > .image,
+.ui.cards > .card > .image {
+	background: #fff;
+}
+
 .ui.card > .image > img,
 .ui.cards > .card > .image > img {
 	height: 270px;
+	object-fit: contain;
 }
 .ui.cards {
 	height: 100%;
